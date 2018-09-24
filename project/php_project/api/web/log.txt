@@ -1,0 +1,35 @@
+SELECT
+	b.req_dt_id,
+	b.req_nums,
+	TRUNCATE (b.req_price, 5) req_price,
+	r.req_no,
+	r.req_id,
+	LEFT (r.app_date, 10) app_date,
+	r.area_id,
+	p.part_no,
+	p.tp_spec,
+	p.pdt_name,
+	p.unit,
+	p.brand,
+    re.rcp_name addr
+FROM
+	prch.bs_req_dt b
+LEFT JOIN prch.bs_req r ON b.req_id = r.req_id
+LEFT JOIN pdt.bs_material p ON b.part_no = p.part_no
+LEFT JOIN wms.bs_receipt re ON r.addr=re.rcp_no
+WHERE
+	(( r.req_status = 38 AND
+		 b.req_dt_id NOT IN (
+			SELECT t.req_dt_id
+			FROM prch.r_req_prch t
+		)
+	)
+OR b.req_dt_id IN (
+	SELECT DISTINCT
+		t.req_dt_id
+	FROM
+		prch.r_req_prch t
+	LEFT JOIN prch.bs_prch_dt bp ON t.prch_dt_id = bp.prch_dt_id
+	LEFT JOIN prch.bs_prch p ON bp.prch_id = p.prch_id
+	WHERE
+		p.yn_can = 1))  and p.category_id in('0') and r.req_dct='109016' and r.addr='BSRCP2017120500001' and r.area_id='1' and r.leg_id='3213' order by r.app_date desc

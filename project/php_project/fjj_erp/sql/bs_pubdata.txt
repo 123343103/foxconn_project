@@ -1,0 +1,28 @@
+﻿
+
+insert into erp.bs_pubdata(bsp_sname,bsp_stype,bsp_svalue,bsp_status)VALUES('客户管理_发票类型','fplx','增值税专用发票',10);
+/*倉庫涉及的參數*/
+
+insert into erp.bs_pubdata (bsp_sname,bsp_stype,bsp_svalue,bsp_status) values ('仓库性质','CKXZ','保税',10);
+insert into erp.bs_pubdata (bsp_sname,bsp_stype,bsp_svalue,bsp_status) values ('仓库性质','CKXZ','非保税',10);
+insert into erp.bs_pubdata (bsp_sname,bsp_stype,bsp_svalue,bsp_status) values ('仓库属性','CKSX','外租',10);
+insert into erp.bs_pubdata (bsp_sname,bsp_stype,bsp_svalue,bsp_status) values ('仓库属性','CKSX','自有',10);
+insert into erp.bs_pubdata (bsp_sname,bsp_stype,bsp_svalue,bsp_status) values ('仓库类别','CKLB','普通仓库',10);
+insert into erp.bs_pubdata (bsp_sname,bsp_stype,bsp_svalue,bsp_status) values ('仓库类别','CKLB','恒温恒湿仓库',10);
+insert into erp.bs_pubdata (bsp_sname,bsp_stype,bsp_svalue,bsp_status) values ('仓库类别','CKLB','贵重物品仓库',10);
+insert into erp.bs_pubdata (bsp_sname,bsp_stype,bsp_svalue,bsp_status) values ('仓库类别','CKLB','其它仓库',10);
+insert into erp.bs_pubdata (bsp_sname,bsp_stype,bsp_svalue,bsp_status) values ('仓库级别','CKJB','一级',10);
+insert into erp.bs_pubdata (bsp_sname,bsp_stype,bsp_svalue,bsp_status) values ('仓库级别','CKJB','二级',10);
+insert into erp.bs_pubdata (bsp_sname,bsp_stype,bsp_svalue,bsp_status) values ('仓库级别','CKJB','三级',10);
+insert into erp.bs_pubdata (bsp_sname,bsp_stype,bsp_svalue,bsp_status) values ('仓库级别','CKJB','其它',10);
+
+
+
+insert into erp.bs_pubdata (bsp_sname,bsp_stype,bsp_svalue,bsp_status) values ('倉庫標準操作','CKBZCZ','入仓操作',10);
+insert into erp.bs_pubdata (bsp_sname,bsp_stype,bsp_svalue,bsp_status) values ('倉庫標準操作','CKBZCZ','出仓操作',10);
+insert into erp.bs_pubdata (bsp_sname,bsp_stype,bsp_svalue,bsp_status) values ('倉庫標準操作','CKBZCZ','仓库异动',10);
+insert into erp.bs_pubdata (bsp_sname,bsp_stype,bsp_svalue,bsp_status) values ('倉庫標準操作','CKBZCZ','仓库调拨',10);
+
+insert into erp.bs_pubdata (bsp_sname,bsp_stype,bsp_svalue,bsp_status) values ('通知單狀態','TZDZT','待處理',10);
+insert into erp.bs_pubdata (bsp_sname,bsp_stype,bsp_svalue,bsp_status) values ('通知單狀態','TZDZT','已處理',10);
+insert into erp.bs_pubdata (bsp_sname,bsp_stype,bsp_svalue,bsp_status) values ('通知單狀態','TZDZT','已取消',10); 

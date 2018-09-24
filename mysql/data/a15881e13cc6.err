@@ -1,0 +1,21 @@
+2018-09-22T10:06:55.221927Z 0 [System] [MY-010116] [Server] /usr/local/mysql/bin/mysqld (mysqld 8.0.12) starting as process 64
+2018-09-22T10:06:57.524890Z 0 [System] [MY-010229] [Server] Starting crash recovery...
+2018-09-22T10:06:57.525043Z 0 [System] [MY-010232] [Server] Crash recovery finished.
+2018-09-22T10:06:57.927590Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2018-09-22T10:06:58.045648Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/usr/local/mysql/data' in the path is accessible to all OS users. Consider choosing a different directory.
+2018-09-22T10:06:58.078343Z 0 [System] [MY-010931] [Server] /usr/local/mysql/bin/mysqld: ready for connections. Version: '8.0.12'  socket: '/tmp/mysql.sock'  port: 3306  Source distribution.
+2018-09-23T03:25:08.656396Z 0 [System] [MY-010116] [Server] /usr/local/mysql/bin/mysqld (mysqld 8.0.12) starting as process 71
+2018-09-23T03:25:13.112272Z 0 [System] [MY-010229] [Server] Starting crash recovery...
+2018-09-23T03:25:13.112392Z 0 [System] [MY-010232] [Server] Crash recovery finished.
+2018-09-23T03:25:13.539143Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2018-09-23T03:25:13.626464Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/usr/local/mysql/data' in the path is accessible to all OS users. Consider choosing a different directory.
+2018-09-23T03:25:13.657893Z 0 [System] [MY-010931] [Server] /usr/local/mysql/bin/mysqld: ready for connections. Version: '8.0.12'  socket: '/tmp/mysql.sock'  port: 3306  Source distribution.
+2018-09-23T06:41:42.937423Z 0 [System] [MY-010116] [Server] /usr/local/mysql/bin/mysqld (mysqld 8.0.12) starting as process 71
+2018-09-23T06:41:49.891613Z 0 [System] [MY-010229] [Server] Starting crash recovery...
+2018-09-23T06:41:49.891742Z 0 [System] [MY-010232] [Server] Crash recovery finished.
+2018-09-23T06:41:50.091191Z 0 [Warning] [MY-011071] [Server] World-writable config file './auto.cnf' is ignored.
+2018-09-23T06:41:50.091256Z 0 [Warning] [MY-010107] [Server] World-writable config file './auto.cnf' has been removed.
+2018-09-23T06:41:50.091411Z 0 [Warning] [MY-010075] [Server] No existing UUID has been found, so we assume that this is the first time that this server has been started. Generating a new UUID: bfedfcc4-befb-11e8-96ce-0242ac130002.
+2018-09-23T06:41:50.824729Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2018-09-23T06:41:50.904741Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/usr/local/mysql/data' in the path is accessible to all OS users. Consider choosing a different directory.
+2018-09-23T06:41:51.287149Z 0 [System] [MY-010931] [Server] /usr/local/mysql/bin/mysqld: ready for connections. Version: '8.0.12'  socket: '/tmp/mysql.sock'  port: 3306  Source distribution.

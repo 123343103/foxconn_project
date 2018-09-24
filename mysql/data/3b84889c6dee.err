@@ -1,0 +1,7 @@
+2018-09-22T09:56:44.743462Z 0 [System] [MY-010116] [Server] /usr/local/mysql/bin/mysqld (mysqld 8.0.12) starting as process 64
+2018-09-22T09:56:56.093090Z 0 [Warning] [MY-011071] [Server] World-writable config file './auto.cnf' is ignored.
+2018-09-22T09:56:56.093251Z 0 [Warning] [MY-010107] [Server] World-writable config file './auto.cnf' has been removed.
+2018-09-22T09:56:56.093527Z 0 [Warning] [MY-010075] [Server] No existing UUID has been found, so we assume that this is the first time that this server has been started. Generating a new UUID: d6d66752-be4d-11e8-a928-0242ac120002.
+2018-09-22T09:56:56.457095Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2018-09-22T09:56:56.696760Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/usr/local/mysql/data' in the path is accessible to all OS users. Consider choosing a different directory.
+2018-09-22T09:56:56.729762Z 0 [System] [MY-010931] [Server] /usr/local/mysql/bin/mysqld: ready for connections. Version: '8.0.12'  socket: '/tmp/mysql.sock'  port: 3306  Source distribution.

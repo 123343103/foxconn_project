@@ -1,0 +1,34 @@
+2018-09-24T06:14:15.440597Z 0 [System] [MY-010116] [Server] /usr/local/mysql/bin/mysqld (mysqld 8.0.12) starting as process 64
+2018-09-24T06:14:18.272999Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2018-09-24T06:14:18.415017Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/usr/local/mysql/data' in the path is accessible to all OS users. Consider choosing a different directory.
+2018-09-24T06:14:18.446194Z 0 [System] [MY-010931] [Server] /usr/local/mysql/bin/mysqld: ready for connections. Version: '8.0.12'  socket: '/tmp/mysql.sock'  port: 3306  Source distribution.
+2018-09-24T06:27:09.989700Z 0 [System] [MY-010116] [Server] /usr/local/mysql/bin/mysqld (mysqld 8.0.12) starting as process 71
+2018-09-24T06:27:11.250480Z 0 [System] [MY-010229] [Server] Starting crash recovery...
+2018-09-24T06:27:11.250561Z 0 [System] [MY-010232] [Server] Crash recovery finished.
+2018-09-24T06:27:11.528278Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2018-09-24T06:27:11.571985Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/usr/local/mysql/data' in the path is accessible to all OS users. Consider choosing a different directory.
+2018-09-24T06:27:11.602957Z 0 [System] [MY-010931] [Server] /usr/local/mysql/bin/mysqld: ready for connections. Version: '8.0.12'  socket: '/tmp/mysql.sock'  port: 3306  Source distribution.
+2018-09-24T06:32:41.168597Z 0 [System] [MY-010116] [Server] /usr/local/mysql/bin/mysqld (mysqld 8.0.12) starting as process 71
+2018-09-24T06:32:42.219164Z 0 [System] [MY-010229] [Server] Starting crash recovery...
+2018-09-24T06:32:42.219251Z 0 [System] [MY-010232] [Server] Crash recovery finished.
+2018-09-24T06:32:42.453647Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2018-09-24T06:32:42.487038Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/usr/local/mysql/data' in the path is accessible to all OS users. Consider choosing a different directory.
+2018-09-24T06:32:42.523754Z 0 [System] [MY-010931] [Server] /usr/local/mysql/bin/mysqld: ready for connections. Version: '8.0.12'  socket: '/tmp/mysql.sock'  port: 3306  Source distribution.
+2018-09-24T06:38:32.419676Z 0 [System] [MY-010116] [Server] /usr/local/mysql/bin/mysqld (mysqld 8.0.12) starting as process 71
+2018-09-24T06:38:33.703176Z 0 [System] [MY-010229] [Server] Starting crash recovery...
+2018-09-24T06:38:33.703254Z 0 [System] [MY-010232] [Server] Crash recovery finished.
+2018-09-24T06:38:33.981483Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2018-09-24T06:38:34.038701Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/usr/local/mysql/data' in the path is accessible to all OS users. Consider choosing a different directory.
+2018-09-24T06:38:34.069935Z 0 [System] [MY-010931] [Server] /usr/local/mysql/bin/mysqld: ready for connections. Version: '8.0.12'  socket: '/tmp/mysql.sock'  port: 3306  Source distribution.
+2018-09-24T06:40:02.601527Z 0 [System] [MY-010116] [Server] /usr/local/mysql/bin/mysqld (mysqld 8.0.12) starting as process 71
+2018-09-24T06:40:03.932917Z 0 [System] [MY-010229] [Server] Starting crash recovery...
+2018-09-24T06:40:03.932996Z 0 [System] [MY-010232] [Server] Crash recovery finished.
+2018-09-24T06:40:04.276781Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2018-09-24T06:40:04.308997Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/usr/local/mysql/data' in the path is accessible to all OS users. Consider choosing a different directory.
+2018-09-24T06:40:04.346624Z 0 [System] [MY-010931] [Server] /usr/local/mysql/bin/mysqld: ready for connections. Version: '8.0.12'  socket: '/tmp/mysql.sock'  port: 3306  Source distribution.
+2018-09-24T06:42:38.590025Z 0 [System] [MY-010116] [Server] /usr/local/mysql/bin/mysqld (mysqld 8.0.12) starting as process 94
+2018-09-24T06:42:39.884267Z 0 [System] [MY-010229] [Server] Starting crash recovery...
+2018-09-24T06:42:39.884397Z 0 [System] [MY-010232] [Server] Crash recovery finished.
+2018-09-24T06:42:40.195708Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2018-09-24T06:42:40.239910Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/usr/local/mysql/data' in the path is accessible to all OS users. Consider choosing a different directory.
+2018-09-24T06:42:40.280019Z 0 [System] [MY-010931] [Server] /usr/local/mysql/bin/mysqld: ready for connections. Version: '8.0.12'  socket: '/tmp/mysql.sock'  port: 3306  Source distribution.

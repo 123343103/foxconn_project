@@ -1,0 +1,5 @@
+﻿insert into wms.bs_transport(tran_id,tran_code,tran_sname)values(2,'201','标准快递');
+insert into wms.bs_transport(tran_id,tran_code,tran_sname)values(3,'202','经济快递');
+insert into wms.bs_transport(tran_id,tran_code,tran_sname)values(4,'301','普通陆运');
+insert into wms.bs_transport(tran_id,tran_code,tran_sname)values(5,'302','定日达陆运');
+insert into wms.bs_transport(tran_id,tran_code,tran_sname)values(6,'203','优速快递');

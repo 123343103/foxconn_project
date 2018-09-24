@@ -1,0 +1,65 @@
+
+html #layui_layer_skinmyskinstylecss{display:none; position: absolute; width:1989px;}
+
+body .myskin .layui-layer-title{
+    display: none;
+}
+body .myskin .layui-layer-content{
+    height: 166px !important;
+    background-color: #F2F2F2;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+    padding: 20px;
+
+}
+body .myskin .layui-layer-content .layui-layer-ico{
+    display: block;
+    height: 80px;
+    width: 460px;
+    position: relative;
+    left: 0;
+    top: 0;
+    background: none;
+}
+body .myskin .layui-layer-content .layui-layer-ico2{
+    background: url('notice.png') no-repeat center;
+}
+body .myskin .layui-layer-content .layui-layer-ico0{
+    background: url('error.png') no-repeat center;
+}
+body .myskin .layui-layer-content .layui-layer-ico1{
+    background: url('success.png') no-repeat center;
+}
+
+
+body .myskin .layui-layer-btn{
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+
+body .layui-ext-myskin .layui-layer-btn a{
+    background-color: #f1f1f1;
+    color: #333;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
+}
+body .myskin .layui-layer-btn .layui-layer-btn0 {
+    color: #fff;
+    height: 28px;
+    width: 68px;
+    font-size: 16px;
+    line-height: 28px;
+}
+body .myskin .layui-layer-btn .layui-layer-btn1{
+    color: #1e7fd0;
+    background-color: #ffffff;
+    border: 1px solid #1e7fd0 ;
+    width: 68px;
+    font-size: 16px;
+    line-height: 28px;
+    margin-left: 40px;
+}

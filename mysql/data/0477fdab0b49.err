@@ -1,0 +1,38 @@
+2018-09-23T08:07:11.934249Z 0 [System] [MY-010116] [Server] /usr/local/mysql/bin/mysqld (mysqld 8.0.12) starting as process 64
+2018-09-23T08:07:21.716830Z 0 [System] [MY-010229] [Server] Starting crash recovery...
+2018-09-23T08:07:21.716943Z 0 [System] [MY-010232] [Server] Crash recovery finished.
+2018-09-23T08:07:22.170013Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2018-09-23T08:07:22.361092Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/usr/local/mysql/data' in the path is accessible to all OS users. Consider choosing a different directory.
+2018-09-23T08:07:22.387757Z 0 [System] [MY-010931] [Server] /usr/local/mysql/bin/mysqld: ready for connections. Version: '8.0.12'  socket: '/tmp/mysql.sock'  port: 3306  Source distribution.
+2018-09-23T11:07:42.573137Z 0 [System] [MY-010116] [Server] /usr/local/mysql/bin/mysqld (mysqld 8.0.12) starting as process 94
+2018-09-23T11:07:46.401317Z 0 [System] [MY-010229] [Server] Starting crash recovery...
+2018-09-23T11:07:46.401414Z 0 [System] [MY-010232] [Server] Crash recovery finished.
+2018-09-23T11:07:46.690426Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2018-09-23T11:07:46.733474Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/usr/local/mysql/data' in the path is accessible to all OS users. Consider choosing a different directory.
+2018-09-23T11:07:46.807818Z 0 [System] [MY-010931] [Server] /usr/local/mysql/bin/mysqld: ready for connections. Version: '8.0.12'  socket: '/tmp/mysql.sock'  port: 3306  Source distribution.
+2018-09-23T11:10:26.953794Z 0 [System] [MY-010116] [Server] /usr/local/mysql/bin/mysqld (mysqld 8.0.12) starting as process 107
+2018-09-23T11:10:28.014066Z 0 [System] [MY-010229] [Server] Starting crash recovery...
+2018-09-23T11:10:28.014162Z 0 [System] [MY-010232] [Server] Crash recovery finished.
+2018-09-23T11:10:28.303068Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2018-09-23T11:10:28.357279Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/usr/local/mysql/data' in the path is accessible to all OS users. Consider choosing a different directory.
+2018-09-23T11:10:28.383061Z 0 [System] [MY-010931] [Server] /usr/local/mysql/bin/mysqld: ready for connections. Version: '8.0.12'  socket: '/tmp/mysql.sock'  port: 3306  Source distribution.
+2018-09-24T06:00:49.279030Z 0 [System] [MY-010116] [Server] /usr/local/mysql/bin/mysqld (mysqld 8.0.12) starting as process 106
+2018-09-24T06:00:58.149727Z 0 [System] [MY-010229] [Server] Starting crash recovery...
+2018-09-24T06:00:58.149864Z 0 [System] [MY-010232] [Server] Crash recovery finished.
+2018-09-24T06:00:58.547767Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2018-09-24T06:00:58.640716Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/usr/local/mysql/data' in the path is accessible to all OS users. Consider choosing a different directory.
+2018-09-24T06:00:58.770803Z 0 [System] [MY-010931] [Server] /usr/local/mysql/bin/mysqld: ready for connections. Version: '8.0.12'  socket: '/tmp/mysql.sock'  port: 3306  Source distribution.
+2018-09-24T06:06:07.286373Z 0 [System] [MY-010116] [Server] /usr/local/mysql/bin/mysqld (mysqld 8.0.12) starting as process 95
+2018-09-24T06:06:08.390905Z 0 [System] [MY-010229] [Server] Starting crash recovery...
+2018-09-24T06:06:08.390989Z 0 [System] [MY-010232] [Server] Crash recovery finished.
+2018-09-24T06:06:08.625876Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2018-09-24T06:06:08.627329Z 0 [ERROR] [MY-010259] [Server] Another process with pid 106 is using unix socket file.
+2018-09-24T06:06:08.627363Z 0 [ERROR] [MY-010268] [Server] Unable to setup unix socket lock file.
+2018-09-24T06:06:08.627387Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-09-24T06:06:10.502729Z 0 [System] [MY-010910] [Server] /usr/local/mysql/bin/mysqld: Shutdown complete (mysqld 8.0.12)  Source distribution.
+2018-09-24T06:10:16.162098Z 0 [System] [MY-010116] [Server] /usr/local/mysql/bin/mysqld (mysqld 8.0.12) starting as process 91
+2018-09-24T06:10:17.525418Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2018-09-24T06:10:17.526863Z 0 [ERROR] [MY-010259] [Server] Another process with pid 106 is using unix socket file.
+2018-09-24T06:10:17.526896Z 0 [ERROR] [MY-010268] [Server] Unable to setup unix socket lock file.
+2018-09-24T06:10:17.526922Z 0 [ERROR] [MY-010119] [Server] Aborting
+2018-09-24T06:10:19.273891Z 0 [System] [MY-010910] [Server] /usr/local/mysql/bin/mysqld: Shutdown complete (mysqld 8.0.12)  Source distribution.

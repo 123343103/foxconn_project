@@ -1,0 +1,31 @@
+version: "3"
+services:
+    nginx:
+        build: ./nginx
+        image: nginx
+        ports:
+            - "80:80"
+        volumes:
+            - ./nginx/nginx.conf:/usr/local/nginx/conf/nginx.conf
+            - ./nginx/fastcgi_params:/usr/local/nginx/conf/fastcgi_params
+            - ./project:/usr/local/nginx/html
+        depends_on:
+            - php-fpm
+    php-fpm:
+        build: ./php
+        image: php
+        volumes:
+            - ./php/php-fpm.conf:/usr/local/php/ext/php-fpm.conf
+            - ./php/www.conf:/usr/local/php/ext/php-fpm.d/www.conf
+            - ./php/php.ini:/usr/local/php/lib/php.ini
+            - ./project:/usr/local/nginx/html
+        depends_on:
+            - mysqld
+    mysqld:
+        build: ./mysql
+        image: mysql
+        ports:
+            - "3306:3306"
+        volumes:
+            - ./mysql/my.cnf:/usr/local/mysql/etc/my.cnf
+            - ./mysql/data:/usr/local/mysql/data
