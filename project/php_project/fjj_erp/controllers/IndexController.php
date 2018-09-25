@@ -25,6 +25,9 @@ class IndexController extends BaseController
 
     public function actionIndex()
     {
+		echo "<pre>";
+		var_dump(Yii::$app->user->identity->staff);
+		exit;
         if (isset(Yii::$app->user->identity->first_login) && Yii::$app->user->identity->first_login == 0) {// 第一次登陆必须修改密码
             return $this->redirect(['/login/login-out']);
         }
